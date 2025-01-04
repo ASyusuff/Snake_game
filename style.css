@@ -1,0 +1,48 @@
+/* Mengatur warna latar belakang */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Mengatur warna teks */
+h1,
+p {
+  color: #333333;
+}
+
+/* Mengatur warna menu navigasi */
+.navbar-nav li a {
+  color: #ffffff;
+}
+
+/* Mengatur warna produk */
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur warna produk saat hover */
+.card:hover {
+  background-color: #e6e6e6;
+}
+
+/* Mengatur ukuran produk */
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mengatur margin produk */
+.card .card-body {
+  margin-top: 20px;
+}
+
+/* Mengatur font produk */
+.card .card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Mengatur font produk saat hover */
+.card:hover .card-title {
+  font-size: 26px;
+}
